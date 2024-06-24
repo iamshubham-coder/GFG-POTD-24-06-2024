@@ -1,0 +1,8 @@
+class Solution {
+  public:
+    long long sumMatrix(long long n, long long q) {
+   
+    if(q<2 || q>2*n) return 0;
+       return min(q-2,2*n-q)+1;
+    }
+};
